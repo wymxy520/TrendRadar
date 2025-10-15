@@ -1,0 +1,98 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-10-15 10:25:50</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">DeepSeek chatgpt 人工智能 AI</td>
+                    <td class="count">6</td>
+                    <td class="percentage">2.35%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2169261" target="_blank" class="news-link">剑指三个“一千万”！上海推动AI终端“做大做强” 智能眼镜、机器人等获点名</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 10时25分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2169533" target="_blank" class="news-link">OpenAI将在阿根廷投资250亿美元，打造拉美首个“星际之门”项目</a> [8] <font color='grey'>- 10时25分</font><br><div class='new-title'>🆕 [zhihu] <a href="https://www.zhihu.com/question/658385796" target="_blank" class="news-link">这波人工智能浪潮怎么越来越像泡沫，AI 到底带来了什么？</a> [10] <font color='grey'>- 10时25分</font></div><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E5%A4%A7%E9%9B%81%E5%A1%94%E7%8E%84%E5%A5%98%E9%93%9C%E5%83%8F%E9%95%BF%E6%BB%A1%E9%9D%92%E8%8B%94%E7%B3%BBAI%E7%94%9F%E6%88%90" target="_blank" class="news-link">大雁塔玄奘铜像长满青苔系AI生成</a> [11] <font color='grey'>- 10时25分</font><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2169443" target="_blank" class="news-link">甲骨文官宣明年部署5万枚AMD芯片 或预示AI硬件格局生变</a> [12] <font color='grey'>- 10时25分</font></div><br>[douyin] <a href="https://www.douyin.com/hot/2269405" target="_blank" class="news-link">iPhone Air开启无SIM卡时代</a> [30] <font color='grey'>- 10时25分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">热点 爆料 吃瓜 内娱</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles">[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%A5%B3%E5%A8%B2%E5%8D%81%E5%91%A8%E5%B9%B4%E9%99%90%E5%AE%9A%E7%9A%AE%E8%82%A4%E7%88%86%E6%96%99" target="_blank" class="news-link">女娲十周年限定皮肤爆料</a> [25] <font color='grey'>- 10时25分</font><br>[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28345734&amp;amp;topic_name=%E5%89%A7%E9%80%8F%E9%A2%84%E8%AD%A6%21%E5%90%A7%E5%8F%8B%E7%88%86%E6%96%99%E5%AE%9D%E5%8F%AF%E6%A2%A6ZA" target="_blank" class="news-link">剧透预警!吧友爆料宝可梦ZA</a> [25] <font color='grey'>- 10时25分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%90%8E%E7%BE%BF%E5%8D%81%E5%91%A8%E5%B9%B4%E9%99%90%E5%AE%9A%E7%9A%AE%E8%82%A4%E7%88%86%E6%96%99" target="_blank" class="news-link">后羿十周年限定皮肤爆料</a> [30] <font color='grey'>- 10时25分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">米哈游 原神 王者荣耀</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%BA%AF%E6%89%8B%E5%B7%A5%E7%9F%B3%E9%9B%95%E5%8E%9F%E7%A5%9E%E5%B2%A9%E7%A5%9E%E5%83%8F" target="_blank" class="news-link">纯手工石雕原神岩神像</a> [21] <font color='grey'>- 10时25分</font><br>[weibo] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E7%8E%8B%E8%80%85%E8%8D%A3%E8%80%80%E8%B2%82%E8%9D%89%E6%8A%95%E7%A5%A8&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26cate%3D5001%26pos%3D29%26stream_entry_id%3D31%26realpos%3D28%26q%3D%25E7%258E%258B%25E8%2580%2585%25E8%258D%25A3%25E8%2580%2580%25E8%25B2%2582%25E8%259D%2589%25E6%258A%2595%25E7%25A5%25A8%26dgr%3D0%26filter_type%3Drealtimehot%26flag%3D0%26c_type%3D31%26lcate%3D5001%26band_rank%3D28%26display_time%3D1760494998%26pre_seqid%3D17604949981960244122113" target="_blank" class="news-link">王者荣耀貂蝉投票</a> [28] <font color='grey'>- 10时25分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 2 条)</h3>
+            <h4>财联社热门 (1 条)</h4><ul><li><a href="https://www.cls.cn/detail/2169443" target="_blank" class="news-link">甲骨文官宣明年部署5万枚AMD芯片 或预示AI硬件格局生变</a> [12]</li></ul><h4>zhihu (1 条)</h4><ul><li><a href="https://www.zhihu.com/question/658385796" target="_blank" class="news-link">这波人工智能浪潮怎么越来越像泡沫，AI 到底带来了什么？</a> [10]</li></ul></div>
+        </body>
+        </html>
+        
