@@ -1,0 +1,98 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-10-28 08:57:37</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">DeepSeek chatgpt 人工智能 AI</td>
+                    <td class="count">5</td>
+                    <td class="percentage">1.96%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3758001" target="_blank" class="news-link">高通盘中暴涨20%，推出人工智能芯片，在数据中心市场与英伟达竞争</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 08时57分</font></div><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%89%B9%E6%96%AF%E6%8B%89%E5%9C%A8%E8%99%9A%E6%8B%9F%E4%B8%96%E7%95%8C%E8%AE%AD%E7%BB%83AI%E5%8F%B8%E6%9C%BA" target="_blank" class="news-link">特斯拉在虚拟世界训练AI司机</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 08时57分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2182682" target="_blank" class="news-link">美股收盘：三大指数齐刷历史新高 高通进军AI芯片股价暴涨11%</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 08时57分</font><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2182582" target="_blank" class="news-link">高通进军数据中心AI芯片业务：主打大内存、性价比 股价直线拉涨</a> [11] <font color='grey'>- 08时57分</font></div><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=AI%E5%A4%A7%E7%94%B5%E5%BD%B1%E8%91%AB%E8%8A%A6%E5%85%84%E5%BC%9F" target="_blank" class="news-link">AI大电影葫芦兄弟</a> [28] <font color='grey'>- 08时57分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">热点 爆料 吃瓜 内娱</td>
+                    <td class="count">4</td>
+                    <td class="percentage">1.57%</td>
+                    <td class="titles">[今日头条] <a href="https://www.toutiao.com/trending/7565800689743085609/" target="_blank" class="news-link">墙头现狗狗吃瓜天团</a> [13] <font color='grey'>- 08时57分</font><br>[douyin] <a href="https://www.douyin.com/hot/2284561" target="_blank" class="news-link">共创之夜最好的内娱群像</a> [14] <font color='grey'>- 08时57分</font><br>[weibo] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E5%86%85%E5%A8%B1%E7%94%B7%E8%89%BA%E4%BA%BA%E9%83%BD%E9%98%B2%E7%9D%80%E9%BB%84%E6%99%AF%E7%91%9C&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26c_type%3D31%26dgr%3D0%26cate%3D5001%26stream_entry_id%3D31%26band_rank%3D20%26flag%3D2%26q%3D%25E5%2586%2585%25E5%25A8%25B1%25E7%2594%25B7%25E8%2589%25BA%25E4%25BA%25BA%25E9%2583%25BD%25E9%2598%25B2%25E7%259D%2580%25E9%25BB%2584%25E6%2599%25AF%25E7%2591%259C%26lcate%3D5001%26pos%3D20%26filter_type%3Drealtimehot%26realpos%3D20%26display_time%3D1761612004%26pre_seqid%3D17616120045170277785483" target="_blank" class="news-link">内娱男艺人都防着黄景瑜</a> [20] <font color='grey'>- 08时57分</font><br>[weibo] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E6%9D%8E%E6%9C%A8%E6%88%88%E5%B8%A6%E7%9D%80%E6%99%AF%E7%94%9C%E5%BC%A0%E5%BD%AC%E5%BD%AC%E5%8F%88%E6%9D%80%E5%9B%9E%E5%86%85%E5%A8%B1&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26c_type%3D31%26dgr%3D0%26cate%3D5001%26stream_entry_id%3D31%26band_rank%3D28%26flag%3D0%26q%3D%25E6%259D%258E%25E6%259C%25A8%25E6%2588%2588%25E5%25B8%25A6%25E7%259D%2580%25E6%2599%25AF%25E7%2594%259C%25E5%25BC%25A0%25E5%25BD%25AC%25E5%25BD%25AC%25E5%258F%2588%25E6%259D%2580%25E5%259B%259E%25E5%2586%2585%25E5%25A8%25B1%26lcate%3D5001%26pos%3D28%26filter_type%3Drealtimehot%26realpos%3D28%26display_time%3D1761612004%26pre_seqid%3D17616120045170277785483" target="_blank" class="news-link">李木戈带着景甜张彬彬又杀回内娱</a> [28] <font color='grey'>- 08时57分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">米哈游 原神 王者荣耀</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles"><div class='new-title'>🆕 [weibo] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E6%9D%A8%E5%B9%82%E7%8E%8B%E8%80%85%E8%8D%A3%E8%80%80%E5%85%B1%E5%88%9B%E4%B9%8B%E5%A4%9C%E6%86%8B%E7%AC%91&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26c_type%3D31%26dgr%3D0%26cate%3D5001%26stream_entry_id%3D31%26band_rank%3D18%26flag%3D0%26q%3D%25E6%259D%25A8%25E5%25B9%2582%25E7%258E%258B%25E8%2580%2585%25E8%258D%25A3%25E8%2580%2580%25E5%2585%25B1%25E5%2588%259B%25E4%25B9%258B%25E5%25A4%259C%25E6%2586%258B%25E7%25AC%2591%26lcate%3D5001%26pos%3D18%26filter_type%3Drealtimehot%26realpos%3D18%26display_time%3D1761612004%26pre_seqid%3D17616120045170277785483" target="_blank" class="news-link">杨幂王者荣耀共创之夜憋笑</a> [18] <font color='grey'>- 08时57分</font></div></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 3 条)</h3>
+            <h4>华尔街见闻 (1 条)</h4><ul><li><a href="https://wallstreetcn.com/articles/3758001" target="_blank" class="news-link">高通盘中暴涨20%，推出人工智能芯片，在数据中心市场与英伟达竞争</a> <font color='red'><strong>[5]</strong></font></li></ul><h4>财联社热门 (1 条)</h4><ul><li><a href="https://www.cls.cn/detail/2182582" target="_blank" class="news-link">高通进军数据中心AI芯片业务：主打大内存、性价比 股价直线拉涨</a> [11]</li></ul><h4>weibo (1 条)</h4><ul><li><a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E6%9D%A8%E5%B9%82%E7%8E%8B%E8%80%85%E8%8D%A3%E8%80%80%E5%85%B1%E5%88%9B%E4%B9%8B%E5%A4%9C%E6%86%8B%E7%AC%91&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26c_type%3D31%26dgr%3D0%26cate%3D5001%26stream_entry_id%3D31%26band_rank%3D18%26flag%3D0%26q%3D%25E6%259D%25A8%25E5%25B9%2582%25E7%258E%258B%25E8%2580%2585%25E8%258D%25A3%25E8%2580%2580%25E5%2585%25B1%25E5%2588%259B%25E4%25B9%258B%25E5%25A4%259C%25E6%2586%258B%25E7%25AC%2591%26lcate%3D5001%26pos%3D18%26filter_type%3Drealtimehot%26realpos%3D18%26display_time%3D1761612004%26pre_seqid%3D17616120045170277785483" target="_blank" class="news-link">杨幂王者荣耀共创之夜憋笑</a> [18]</li></ul></div>
+        </body>
+        </html>
+        
