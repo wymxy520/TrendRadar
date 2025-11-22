@@ -1,0 +1,98 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-11-22 18:12:48</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">DeepSeek chatgpt 人工智能 AI</td>
+                    <td class="count">5</td>
+                    <td class="percentage">1.96%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2207918" target="_blank" class="news-link">【早报】华为AI新技术揭晓；两家A股公司被证监会立案调查</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时12分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3759889" target="_blank" class="news-link">一文读懂大跌逻辑--高盛交易员“复盘”：美联储转鹰“拉开帷幕”，谷歌而非英伟达重塑“AI交易”，币圈重创散户，最终是“系统性抛售”</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时12分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3759885" target="_blank" class="news-link">承认谷歌超越！奥特曼内部信曝光：OpenAI领先优势缩小，预警“艰难时刻”到来</a> [7] <font color='grey'>- 18时12分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3759882" target="_blank" class="news-link">华为AI突破性技术揭晓！</a> [10] <font color='grey'>- 18时12分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2207169" target="_blank" class="news-link">“王者归来”之后 谷歌再下重注：世界模型将迎来“ChatGPT时刻”</a> [13] <font color='grey'>- 18时12分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">米哈游 原神 王者荣耀</td>
+                    <td class="count">4</td>
+                    <td class="percentage">1.57%</td>
+                    <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%8E%8B%E8%80%85%E8%8D%A3%E8%80%80S42%E6%96%B0%E8%B5%9B%E5%AD%A3%E5%89%8D%E7%9E%BB%E7%9B%B4%E6%92%AD" target="_blank" class="news-link">王者荣耀S42新赛季前瞻直播</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时12分</font></div><br>[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28347386&amp;amp;topic_name=%E7%B1%B3%E5%93%88%E6%B8%B8%E6%96%B0%E4%BD%9C%E6%83%A8%E9%81%AD%E6%B9%AE%E7%81%AD%E4%B9%8B%E6%BD%AE%E5%90%8A%E6%89%93" target="_blank" class="news-link">米哈游新作惨遭湮灭之潮吊打</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时12分</font><br>[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28347388&amp;amp;topic_name=%E5%8E%9F%E7%A5%9E%E4%BA%BA%E5%A6%BB%E7%99%BB%E5%9C%BA%2C%E7%B1%B3%E5%AD%A6%E9%95%BF%E4%BA%89%E5%BD%93%E6%9B%B9%E8%B4%BC" target="_blank" class="news-link">原神人妻登场,米学长争当曹贼</a> [6] <font color='grey'>- 18时12分</font><br>[zhihu] <a href="https://www.zhihu.com/question/1975292384091857822" target="_blank" class="news-link">如何评价 2025 年 11 月 21 日米哈游《原神》前瞻直播特别节目「『空月之歌·间奏』终北的夜行诗」?</a> [19] <font color='grey'>- 18时12分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">热点 爆料 吃瓜 内娱</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%8E%8B%E8%80%85%E6%96%B0%E8%8B%B1%E9%9B%84%E5%A4%A7%E7%A6%B9%E7%88%86%E6%96%99" target="_blank" class="news-link">王者新英雄大禹爆料</a> [6] <font color='grey'>- 18时12分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 1 条)</h3>
+            <h4>bilibili 热搜 (1 条)</h4><ul><li><a href="https://search.bilibili.com/all?keyword=%E7%8E%8B%E8%80%85%E8%8D%A3%E8%80%80S42%E6%96%B0%E8%B5%9B%E5%AD%A3%E5%89%8D%E7%9E%BB%E7%9B%B4%E6%92%AD" target="_blank" class="news-link">王者荣耀S42新赛季前瞻直播</a> <font color='red'><strong>[3]</strong></font></li></ul></div>
+        </body>
+        </html>
+        
